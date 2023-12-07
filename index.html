@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Page Login</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Criar conta</h1>
+                <div class="social-icons">
+                    <a href="" class="icon"><i class='bx bxl-google-plus' ></i></a>
+
+                    <a href="" class="icon"><i class='bx bxl-facebook' ></i></a>
+                </div>
+
+                <span>Ou usa seu email</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+
+                <button>Cadastre-se</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Entre com o seu Login</h1>
+                <div class="social-icons">
+                    <a href="" class="icon"><i class='bx bxl-google-plus' ></i></a>
+
+                    <a href="" class="icon"><i class='bx bxl-facebook' ></i></a>
+                </div>
+
+                <span>Ou usa seu email e senha</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <a href="#"> Esqueceu a sua senha? </a>
+
+                <button>Entrar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem-vindo de volta!</h1>
+                    <p>Insira seus dados pessoais para usar todos os recursos do site</p>
+
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>Para uma boa experiência!</h1>
+                    <p>Insira seus dados pessoais para usar todos os recursos do site</p>
+                    
+                    <button class="hidden" id="register">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
